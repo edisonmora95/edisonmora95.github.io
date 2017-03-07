@@ -1,0 +1,36 @@
+
+
+body{
+	background-color: #e5ddc3;
+}
+
+.container{
+	background-color: white;
+	margin-top: 2%;
+	padding: 2%;
+}
+
+img{
+	border-radius: 50%;
+	max-height: 150px;
+	max-width: 150px;
+}
+
+#row1{
+	margin-bottom: 1%;
+}
+
+
+#texto:after {
+    width: 100%;
+    height: 3px;
+    background-color: #e5ddc3;
+    margin-top: 15px;
+    content: '';
+    display: block;
+}
+
+.titulo{
+	white-space: nowrap;
+	font-size: 1.8em;
+}

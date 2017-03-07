@@ -1,0 +1,20 @@
+.timeline dl dd .time{
+ left: 0%;   
+}
+
+.timeline dl dd.pos-right .time{
+  margin-left: 0;
+}
+
+.timeline dl:before {
+  left: 30%;
+}
+
+.timeline dl dd .circ{
+  left: 30%;
+}
+
+.timeline dl dd.pos-right .events{
+    float: none;
+    left: 31%;
+}
