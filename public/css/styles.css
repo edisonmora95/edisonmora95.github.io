@@ -1,12 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 body{
 	background-color: #e5ddc3;
+	margin: 2%;
 }
 
 .container{
 	background-color: white;
-	margin-top: 2%;
 	padding: 2%;
 }
 
@@ -20,6 +20,10 @@ img{
 	margin-bottom: 1%;
 }
 
+#row2, #row3{
+	padding: 2%;
+}
+
 
 #texto:after {
     width: 100%;
@@ -31,6 +35,61 @@ img{
 }
 
 .titulo{
+	font-weight: bold;
+}
+
+.subtitulo{
 	white-space: nowrap;
-	font-size: 1.8em;
+	/*font-size: 1.8em;*/
+	font-weight: bold;
+}
+
+h6.con-titulo, h6.lenguaje{
+    font-weight: bold;
+}
+/*
+.contenedor{
+	padding: 2%;
+}
+*/
+.row-educacion, .row-exp-ac, .row-lenguajes, .row-lenguajes-programacion, .row-frameworks, .row-programacion-web, .row-db, .row-contacto{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+h1, h2, h3, h4 , h5, h6, p{
+	font-family: 'Roboto Slab';
+}
+
+.educacion-titulo{
+	font-weight: bold;
+}
+
+p{
+	text-align: justify;
+}
+
+.icono{
+	margin-right: 20px;
+	padding: 10px;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    opacity: 0.2;
+}
+
+#contacto{
+	padding-left:15px;
+}
+
+.item-contacto{
+	width: 100%;
+	float: left;
+}
+
+.fa{
+	font-size: 2em;
+}
+
+p.contacto{
+	margin-top: 15px;
 }
